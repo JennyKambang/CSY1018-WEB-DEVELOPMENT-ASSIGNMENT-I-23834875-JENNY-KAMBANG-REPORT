@@ -240,26 +240,26 @@ section {
 .btn:hover {
     transform: scale(0.9);
 }
-.about {
+.sitereport {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 
-.about-img img {
+.sr-img img {
     max-width: 530px;
     height: auto;
     width: 100%;
     border-radius: 5px;
 }
 
-.about-text h2 {
+.sr-text h2 {
     font-size: 3rem;
     line-height: 1;
 }
 
-.about-text h4 {
+.sr-text h4 {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
@@ -267,7 +267,7 @@ section {
     margin: 15px 0 30px;
 }
 
-.about-text p {
+.sr-text p {
     color: #ccc;
     font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
