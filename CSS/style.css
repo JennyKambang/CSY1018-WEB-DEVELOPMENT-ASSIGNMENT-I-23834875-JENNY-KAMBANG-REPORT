@@ -521,11 +521,11 @@ section {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: #2a2a2a;
+    background: #333333;
 }
 
 .last-text p {
-    color: #2a2a2a;
+    color: #ff6666;
     font-size: 14px;
 }
 

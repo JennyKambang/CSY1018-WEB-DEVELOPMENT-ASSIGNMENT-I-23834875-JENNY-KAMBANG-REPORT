@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1">
-        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width">
+        <title>JK</title>
         <link rel="stylesheet" type="text/css" href="C:\Users\jenny\Desktop\NAMI\Classes\CSY1018-web-development\R-AS1\RE-SIT CSY1018\CSS\style.css">
 
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -34,7 +34,7 @@
                     <span class="two">I'm</span>
                 </div>
                 <h1>Jenny <br> Kambang</h1>
-                <h3>Website <span>developer.</span></h3>
+                <h3>A Website <span>developer.</span></h3>
                 <p>I am a freelance developer that uses html and css to <br> create the desired websites for my clients.</p>
                 <div class="button">
                     <a href="#contact" class="btn">Contact Me</a>
@@ -48,7 +48,7 @@
             </div>
             <div class="portfolio-content">
                 <div class="row">
-                    <img src="../IMG/HTML.png">
+                    <img src="../IMG/HTML.png" alt="">
                     <div class="Layer">
                         <h5>HTML Lesson</h5>
                         <p>Basics of HTML</p>
@@ -57,7 +57,7 @@
                 </div>
                 
                 <div class="row">
-                    <img src="../IMG/DIV-DEMO.png">
+                    <img src="../IMG/DIV-DEMO.png" alt="">
                     <div class="Layer">
                         <h5>DIV Lesson</h5>
                         <p>Basics of using DIV in HTML</p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="../IMG/FORM-DEMO.png">
+                    <img src="../IMG/FORM-DEMO.png" alt="">
                     <div class="Layer">
                         <h5>FORM Lesson</h5>
                         <p>Basics of creating FORM in HTML</p>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="../IMG/TABLE-DEMO.png">
+                    <img src="../IMG/TABLE-DEMO.png" alt="">
                     <div class="Layer">
                         <h5>TABLE Lesson</h5>
                         <p>Basics of creating TABLE in HTML</p>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="../IMG/CSS-DEMO.png">
+                    <img src="../IMG/CSS-DEMO.png" alt="">
                     <div class="Layer">
                         <h5>CSS Lesson</h5>
                         <p>Example of how CSS should look and work</p>
@@ -99,9 +99,11 @@
                 <h2>Contact <span>Me!</span></h2>
                 <p>If you have any inquires.</p>
                 <div class="list">
+                    <ul>
                     <li><a href="#">980-8102633</a></li>
                     <li><a href="#">jennykambang11@gmail.com</a></li>
                     <li><a href="#">Like Share & Subscribe</a></li>
+                    </ul>
                 </div>
     
                 <div class="contact-icons">
@@ -112,16 +114,14 @@
     
                 </div>
                 <div class="contact-form">
-                    <form action="">
-                        <input type="name" placeholder="Your Name" required>
+                    <form action="/submit-form" method="post">
+                        <input type="text" placeholder="Your Name" required>
                         <input type="email" placeholder="Your Email" required>
                         <input type="number" placeholder="Your Mobile Number" required>
-                        <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-                        <input type="submit" value="Send Message" class="submit" required>
+                        <textarea name="message" id="message-input" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                        <input type="submit" value="Send Message">
                     </form>
-    
                 </div>
-            </div>
         </section>
 
         <section class="workexperiences" id="workexperiences">
@@ -136,11 +136,11 @@
                     <h3>App Design</h3>
                     <p>To create a successful app design,it is essential to focus on the user.Understand 
                         their needs through research and user personas, allowing you to tailor the app to
-                         their requirements.Eensure a seamless user experience by designing a simple and
+                         their requirements.Ensure a seamless user experience by designing a simple and
                           intuitive interface with easy navigation.Pay attention to visual aesthetics, using 
                           appropriate colors,typography,and imagery to create an appealing and consistent UI.
                           Adaptability is key,as the app should be responsive across vaious device sizes.
-                          Maintain consistency in design elements and follow platfomr-specific guidelines for a
+                          Maintain consistency in design elements and follow platform-specific guidelines for a
                           familiar user experience.Make onboarding user-friendly and efficient.</p>
                        <a href="#sitereport" class="btn">Read More</a>
                 </div>
@@ -168,7 +168,7 @@
                     <h3>Innovative Design</h3>
                     <p>It's essential to understand the purpose and goals of the project.Thorough research and 
                         inspiration help generate ideas.Developing a cohesive visual identity and branding is
-                        important for consistency.Strice for originality while considering the client's objectives.
+                        important for consistency.Strivee for originality while considering the client's objectives.
                         Pay attention to visual hierarchy and composition.Choose appropriate typography and fonts
                         for readability.</p>
                         <a href="#sitereport" class="btn">Read More</a>
@@ -178,26 +178,19 @@
         
         <section class="sitereport" id="sitereport">
             <div class="sr-img">
-                <img src="../img/Jenny.JPG">
+                <img src="../img/Jenny.JPG" alt="">
             </div>
     
             <div class="sr-text">
                 <h2>Site <span>Report</span></h2>
                 <h4>Website Designer</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus id massa odio. Nunc placerat maximus quam, nec 
-                   congue elit maximus eget. Vivamus pellentesque ultricies 
-                   congue. Nulla volutpat lobortis odio, eu sodales est 
-                   aliquam eu. Aenean non diam at lacus euismod mollis. Donec
-                    eget vulputate sem. Praesent id magna accumsan, elementum
-                    orci pharetra, consequat urna. Etiam dictum nulla eget
-                    pulvinar ullamcorper. Sed lorem mi, semper et tellus sit 
-                   amet, malesuada viverra velit.</p>
+                <p></p>
                    <a href="#" class="btn">More About</a>
             </div>
         </section>
 
             <section class="end">
+                <h2>Develop</h2>
                 <div class="last-text">
                     <p>Designed By Jenny Kambang</p>
                 </div>
