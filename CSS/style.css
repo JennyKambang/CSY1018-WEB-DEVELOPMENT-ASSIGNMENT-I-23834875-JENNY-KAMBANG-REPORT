@@ -407,7 +407,7 @@ section {
     height: 240px;
 }
 
-.contact-form .submit {
+.contact-form input[type="submit"] {
     display: inline-block;
     font-size: 16px;
     background: #ff6666;
@@ -416,7 +416,7 @@ section {
     transition: all .45s ease;
 }
 
-.contact-form .submit:hover {
+.contact-form input[type="submit"]:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
