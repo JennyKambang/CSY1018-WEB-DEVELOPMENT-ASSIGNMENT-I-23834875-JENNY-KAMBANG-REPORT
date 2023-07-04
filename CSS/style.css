@@ -31,7 +31,7 @@ header {
 }
 
 .logo {
-    color: #fff;
+    color: #f2f2f2;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -41,7 +41,7 @@ header {
     position: relative;
     width: 30px;
     height: 4px;
-    background: #fff;
+    background: #f2f2f2;
     border-radius: 10px;
     cursor: pointer;
     z-index: 2;
@@ -53,7 +53,7 @@ header {
     position: absolute;
     height: 4px;
     right: 0;
-    background: #fff;
+    background: #f2f2f2;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -133,7 +133,7 @@ span {
 }
 
 .navlist a {
-    color: white;
+    color: #f2f2f2;
     font-size: 17px;
     font-weight: 500;
     margin: 0 25px;
@@ -150,7 +150,7 @@ span {
 
 #menu-icon {
     font-size: 35px;
-    color: #fff;
+    color: #f2f2f2;
     z-index: 1000;
     cursor: pointer;
     margin-left: 25px;
@@ -173,25 +173,25 @@ section {
     justify-content: flex-start;
 }
 
-.slide {
+.shift {
     margin-bottom: 20px;
 }
 
 .one {
     display: inline-block;
+    color: #f2f2f2;
+    background: #ff6666;
     margin-right: 15px;
     padding: 0 15px;
     line-height: 32px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
-    background: #ff6666;
-    color: #fff;
 }
 
 .two {
     display: inline-block;
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 20px;
     font-weight: 500;
 }
@@ -199,13 +199,13 @@ section {
 .home-text h1 {
     font-size: 5rem;
     font-weight: 700;
-    color: #fff;
+    color: #f2f2f2;
     line-height: 1.1;
     margin: 0 0 8px;
 }
 
 .home-text h3 {
-    color: #fff;
+    color: #f2f2f2;
     margin: 0 0 35px;
     font-size: 3rem;
     font-weight: 700;
@@ -213,7 +213,7 @@ section {
 }
 
 .home-text p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 40px;
@@ -230,7 +230,7 @@ section {
     padding: 12px;
     background: #ff6666;
     border-radius: 5px;
-    color: #fff;
+    color: #f2f2f2;
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
@@ -266,7 +266,7 @@ section {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),#00a6ff);
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#ff6666);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -286,7 +286,7 @@ section {
 }
 
 .layer p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 1rem;
     line-height: 1.8;
 
@@ -296,14 +296,13 @@ section {
     color: #ff6666;
     margin-top: 20px;
     font-size: 20px;
-    background: #fff;
+    background: #f2f2f2;
     width: 60px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-
 }
 
 .row:hover img {
@@ -311,8 +310,16 @@ section {
 
 }
 
-.row:hover.layer {
+.row:hover .layer {
     height: 100%;
+}
+
+.content {
+    background: #ff6666;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .contact {
@@ -324,7 +331,7 @@ section {
 }
 
 .contact-text h4 {
-    color: #fff;
+    color: #f2f2f2;
     margin: 18px 0;
     font-size: 20px;
     font-weight: 600;
@@ -336,7 +343,7 @@ section {
 }
 
 .contact-text p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 30px;
@@ -352,20 +359,20 @@ section {
 
 .list li a {
     display: block;
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 14px;
     transition: all .45s ease;
 }
 
 .list li a:hover {
-    color: #fff;
+    color: #f2f2f2;
     transform: translate(5px);
 }
 
 .contact-icons i {
     height: 45px;
     width: 45px;
-    color: #fff;
+    color: #f2f2f2;
     font-size: 22px;
     display: inline-block;
     align-items: center;
@@ -387,7 +394,7 @@ section {
     width: 100%;
     padding: 14px;
     background: #2a2a2a;
-    color: #fff;
+    color: #f2f2f2;
     border: none;
     outline: none;
     font-size: 15px;
@@ -404,7 +411,7 @@ section {
     display: inline-block;
     font-size: 16px;
     background: #ff6666;
-    color: #fff;
+    color: #f2f2f2;
     width: 160px;
     transition: all .45s ease;
 }
@@ -423,7 +430,7 @@ section {
 }
 
 .main-text p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 15px;
     margin-bottom: 15px;
 }
@@ -456,12 +463,12 @@ section {
 .box h3 {
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #f2f2f2;
     margin-bottom: 15px;
 }
 
 .box p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 25px;
@@ -494,13 +501,13 @@ section {
 .sr-text h4 {
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #f2f2f2;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
 
 .sr-text p {
-    color: #ccc;
+    color: #d9d9d9;
     font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.8;
@@ -526,7 +533,7 @@ section {
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
-    color: #fff;
+    color: #f2f2f2;
     background: #ff6666;
 }
 
@@ -601,7 +608,7 @@ section {
         margin: 17px;
         font-size: 20px;
         transition: all .45s ease;
-        color: #fff;
+        color: #f2f2f2;
     }
 
     .navlist a:hover {
@@ -609,7 +616,7 @@ section {
     }
 
     .navlist a.active {
-        color: #fff;
+        color: #f2f2f2;
     }
 
     .navlist.open{
